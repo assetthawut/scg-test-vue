@@ -128,7 +128,7 @@ var restaurants = new Vue({
 
       if (localStorage.getItem("restObj") === null) {
 
-        this.$http.get('http://phpstack-312963-958621.cloudwaysapps.com/scg-test/public/test/getrestaurant').then(function (response) {
+        this.$http.get('https://phpstack-312963-958621.cloudwaysapps.com/scg-test/public/test/getrestaurant').then(function (response) {
 
           if (response.status == "200") {
             this.restaurantObj = response.data.results;
