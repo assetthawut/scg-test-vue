@@ -18,10 +18,7 @@ Vue.component('navbarcomponent', {
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cv.html">My CV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://phpstack-312963-958621.cloudwaysapps.com/scg-test/public/">Zend Test</a>
-        </li>                
+        </li>   
       </ul>
     </div>
   </nav>
